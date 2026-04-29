@@ -1,0 +1,13 @@
+เช็ค python ว่าเป็น Vertion 3.10 or 3.11 or 3.12
+ถ้ายังไม่ได้อัปเกรต พิมพ์ใส่ใน terminal
+python.exe -m pip install --upgrade pip
+
+ติดตั้ง Library เพิ่ม 
+pip uninstall mediapipe -y
+pip install -r requirements.txt
+
+จากนั้น 
+python main.py ในterminal 
+
+
+**** บรรทัดที่ 105 ให้ใส่ web hook ของดิสคอร์ดได้เลย 

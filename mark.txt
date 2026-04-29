@@ -1,0 +1,5 @@
+# วาดจุด Landmark 
+            for lm in face_points:
+                x, y = int(lm.x * w), int(lm.y * h)
+                cv2.circle(frame, (x, y), 1, (0, 255, 0), -1)
+
